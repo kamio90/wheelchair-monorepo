@@ -1,0 +1,5 @@
+version: '3.6'
+services:
+  postgres-wheelchair:
+    image: postgres
+    restart: unless-stopped
