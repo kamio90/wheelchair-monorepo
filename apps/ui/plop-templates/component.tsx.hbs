@@ -1,0 +1,25 @@
+import React, { ReactNode } from "react";
+import PropTypes from "prop-types";
+
+interface {{pascalCase name}}Props {
+    children?: ReactNode;
+}
+
+const {{pascalCase name}}: React.FC<{{pascalCase name}}Props> = React.memo(({ children }) => {
+return (
+        <>
+            <p>{{pascalCase name}} {{componentType}}</p>
+            {children}
+        </>
+    );
+});
+
+{{pascalCase name}}.propTypes = {
+    children: PropTypes.node,
+};
+
+{{pascalCase name}}.defaultProps = {
+    children: null,
+};
+
+export default {{pascalCase name}};

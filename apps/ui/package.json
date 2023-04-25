@@ -43,7 +43,9 @@
   },
   "devDependencies": {
     "@types/jest": "^27.5.2",
+    "@types/prop-types": "^15.7.5",
     "@types/testing-library__jest-dom": "^5.14.5",
-    "plop": "^3.1.2"
+    "plop": "^3.1.2",
+    "prop-types": "^15.8.1"
   }
 }

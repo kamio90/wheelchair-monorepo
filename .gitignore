@@ -2,3 +2,6 @@ node_modules
 build
 dist
 coverage
+
+# Local Images Documentation
+apps/ui/plop-templates/how-to-use/atomic-design.png
