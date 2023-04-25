@@ -1,0 +1,16 @@
+import React, { ReactNode } from "react";
+
+interface {{pascalCase name}}Props {
+children?: ReactNode;
+}
+
+const {{pascalCase name}}: React.FC<{{pascalCase name}}Props> = ({ children }) => {
+    return (
+        <>
+            <p>{{pascalCase name}} {{componentType}}</p>
+            {children}
+        </>
+    );
+};
+
+export default {{pascalCase name}};

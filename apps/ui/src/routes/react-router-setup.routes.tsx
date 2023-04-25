@@ -1,5 +1,4 @@
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
-import { Home } from './lazy-config/home-rotue-lazy-config.route';
 import routesConfig from './config/routes.config';
 
 const ReactRouterSetup = () => {
